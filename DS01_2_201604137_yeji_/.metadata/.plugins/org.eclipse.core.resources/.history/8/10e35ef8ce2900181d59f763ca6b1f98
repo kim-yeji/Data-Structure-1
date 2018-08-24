@@ -1,0 +1,9 @@
+package transcript;
+
+public interface Student {
+	public String getName();
+	public void updateTranscript(Section section, Grade grade);
+	public void printTranscript();
+	void updateTranscript(MySection section, MyGrade grade);
+
+}
